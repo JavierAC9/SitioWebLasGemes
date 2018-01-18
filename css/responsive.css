@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+.cuadro{
+    width: 900px;
+    height: 500px;
+    background-color: black;
+    margin: auto;
+}
+@media (max-width: 900px) {
+    .cuadro{
+        width: 700px;
+        height: 500px;
+        background-color: yellow;
+        margin: auto;
+    }
+}
+@media (max-width: 767px) {
+    .cuadro{
+        width: 500px;
+        height: 500px;
+        background-color: blue;
+        margin: auto;
+    }
+}
+@media (max-width: 500px) {
+    .cuadro{
+        width: 300px;
+        height: 500px;
+        background-color: red;
+        margin: auto;
+    }
+}
+@media (max-width: 320px) {
+    .cuadro{
+        width: 200px;
+        height: 500px;
+        background-color: turquoise;
+        margin: auto;
+    }
+}

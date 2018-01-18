@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+     <title>Productos | Las Gemes</title>
+     <link rel="shortcut icon" type="image/x-icon" href="imgs/LogoLasGemes.ico" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/productoController.js"></script>
+    <script src="js/productos.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+     <link rel="stylesheet" href="css/alertify.css">    
+    <link rel="stylesheet" href="css/default.css">
+    <script src="js/alertify.js"></script>
+
+</head>
+
+<body >
+
+<header><div class="container-fluid" id="header">
+<figure class="figure ">
+  <center><img id="logoMenu" src="imgs/LogoLasGemes.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></figure></center>
+</figure>     
+</div>
+</header>
+
+
+<nav class=" navbar-expand-sm navbar-light " id="barraMenuUsuario">
+  <div class="collapse navbar-collapse " id="navbarTextUsuario" >
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Inicio </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="conozcanos.html">Conózcanos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="productos.html">Productos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="recetas.html">Recetas</a>
+      </li>
+       <ul class="nav navbar-nav ">
+      <li class="dropdown nav-item"><a class="dropdown-toggle nav-link " data-toggle="dropdown" href="#">Contacto</a>
+        <ul class="dropdown-menu ">
+            <li class="nav-item active fondoUsuarioli">
+              <a class="nav-link" href="registroConsulta.html">Consulta</a>
+            </li>
+            <li class="nav-item active fondoUsuarioli">
+              <a class="nav-link" href="registroComentario.html">Comentario</a>
+            </li>
+        </ul>
+      </li>
+    </ul>
+    </ul>
+        <a id="hola"></a>
+        <a id="editar"></a>
+        <a id="login"></a>
+        <a class="nav-link" href="registroUsuario.html" id="registrarse"><i class="fa fa-user"></i> Registrarse</a>
+  </div>
+</nav>
+
+<nav class=" navbar-expand-sm navbar-light  escondida "  id="barraMenuAdmin">
+  <div class="collapse navbar-collapse" id="navbarTextAdmin" >
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+        <a class="nav-link" href="editarBanner.html">Banner</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="listaUsuarios.html">Usuarios </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="bitacora.html">Bitácora </a>
+      </li>
+
+
+      <ul class="nav navbar-nav ">
+      <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Productos</a>
+        <ul class="dropdown-menu">
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="listaProductos.html">Lista de productos </a>
+            </li>
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="registroProducto.html">Registrar productos </a>
+            </li>
+
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="listaCategoriasProductos.html">Lista de categorías de productos </a>
+            </li>
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="registroCategoriaProducto.html">Registrar categorías de productos </a>
+            </li>
+        </ul>
+      </li>
+    </ul>
+
+
+    <ul class="nav navbar-nav ">
+      <li class="dropdown nav-item"><a class="dropdown-toggle nav-link " data-toggle="dropdown" href="#">Recetas</a>
+        <ul class="dropdown-menu ">
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="listaRecetas.html">Lista de recetas </a>
+            </li>
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="registroReceta.html">Registrar recetas </a>
+            </li>
+
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="listaCategoriasRecetas.html">Lista de categorías de recetas </a>
+            </li>
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="registroCategoriaReceta.html">Registrar categorías de recetas </a>
+            </li>
+        </ul>
+      </li>
+    </ul>
+
+
+    <ul class="nav navbar-nav ">
+      <li class="dropdown nav-item"><a class="dropdown-toggle nav-link " data-toggle="dropdown" href="#">Contacto</a>
+        <ul class="dropdown-menu ">
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="listaConsultas.html">Lista de consultas </a>
+            </li>
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="listaComentarios.html">Lista de comentarios </a>
+            </li>
+        </ul>
+      </li>
+    </ul>
+
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+    
+    <center><h1 id="tituloProductos">Productos</h1></center>
+
+      
+        <div  id="mostrarProductos">
+   
+        </div>
+     
+
+ 
+
+<footer>
+<div class="container-fluid row" id="footer">
+ <div class="col-4">
+      <h4 id="footerContacto">Contáctenos</h4>
+       <h6 id="footerTelefono"><i class="fa fa-phone"></i> 8348 4682 / 8997 6416 </h6>
+       <h6><i id="footerCorreo" class="fa  fa-envelope-o"></i> cocinalasgemes@gmail.com </h6>
+    </div>
+    <div class="col-4">
+       <h2>“Repostería casera con sabor de hogar”</h2>
+    </div>
+    <div class="col-4">
+      <h4 id="footerContacto">Síganos en</h4>
+      <figure class="figure "><center><a href="https://www.facebook.com/Las-Gemes-1752288915021622/"><img id="footerLogoFacebook" src="imgs/logoFacebook.png" class="figure-img img-fluid rounded" alt="Logo de Facebook"></figure></a></center>
+</div>
+<div class="container-fluid row" id="footer">
+  <div class="col-12">
+    <p id="footerCreditos">2017 Todos los derechos reservados. Diseño y desarrollo por Javier Álvarez</p>
+  </div>
+</div>
+</footer>
+ 
+</body>
+
+</html>

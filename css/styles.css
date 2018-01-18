@@ -1,0 +1,370 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  background-image: url("../imgs/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  left: 0;
+}
+
+#banner{
+  width: 35%;
+  margin: 2% 0 2% 0;
+}
+
+#iniciarSesion{
+  padding: 0 0 0 5%;
+}
+
+
+footer{
+  margin: 10% 0 0 0;
+  padding: 3% 0 3% 0;
+  text-align: center;
+  background-color: #39211A;
+  color: white;
+}
+
+#footerIndex{
+  margin: 0 0 0 0;
+  padding: 3% 0 3% 0;
+  text-align: center;
+  background-color: #39211A;
+  color: white;
+}
+
+#bodyFondo{
+  background-image: url("../imgs/fondo2.jpg");
+  background-size: cover;
+  background-position: center;
+  left: 0;
+}
+
+#footerContacto{
+  margin: 0 0 5% 0;
+}
+#footerTelefono{
+  margin: 0 0 5% 0;
+}
+#footerCorreo{
+  margin: 0 0 5% 0;
+}
+#footerCreditos{
+  margin: 2% 0 0 0;
+}
+#footerLogoFacebook{
+  width: 12%;
+}
+
+
+form{
+  color: brown;
+  font-weight: bold;
+}
+
+
+.tableContainer{
+  margin: 5% 0 5% 10%;
+  width: 80%;
+  font-size: 0.8em;
+}
+
+table{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+table:hover{
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+#formContainer{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 0 10% 20% 10%;
+}
+
+#formContainerIiniciarSesion{
+  margin-top: 5%;
+  margin-bottom: 2%;
+  padding: 0 35% 2% 35%;
+}
+
+#formContainerRegistroUsuario{
+  margin-top: 5%;
+  margin-bottom: 2%;
+  padding: 0 25% 2% 25%;
+}
+
+
+#formContainerEdicionBanner{
+  margin-top: 5%;
+  margin-bottom: 2%;
+  padding: 0 15% 2% 15%;
+}
+
+#formContainerEdicionBanner label{
+  color: black;
+}
+
+.botonCentrar{
+  text-align: center;
+}
+
+.rojo{
+  color: red;
+}
+
+.verde{
+  color:green;
+}
+
+.logoIndex{
+  width: 40%;
+}
+
+.escondida{
+  display: none;
+}
+
+
+#titulo{
+  margin: 0 0 5% 0;
+  color: brown;
+}
+
+#tituloProductos{
+  margin: 5% 0 5% 0;
+  color: brown;
+}
+
+#tituloRecetas{
+  margin: 5% 0 5% 0;
+  color: brown;
+}
+
+
+#navbarTextUsuario li a{
+  font-size: 0.8em;
+  font-weight: bold;
+  color: brown;
+}
+
+#navbarTextAdmin li a{
+  font-size: 0.8em;
+  font-weight: bold;
+  color: white;
+}
+
+#barraMenuUsuario{
+  background-color: #fee9c7;
+  padding: 0;
+}
+
+#barraMenuUsuario ul li a:hover{
+  background-color: #bd7158;
+  color: white;
+}
+
+#barraMenuAdmin{
+  background-color: #bd7158;
+  padding: 0;
+}
+
+#barraMenuAdmin ul li a:hover{
+  background-color:  #fee9c7;
+  color: brown;
+}
+
+
+#login{
+  font-size: 0.8em;
+  font-weight: bolder;
+}
+
+#editar{
+  font-size: 0.8em;
+  font-weight: bolder;
+}
+
+#registrarse{
+  font-size: 0.8em;
+  font-weight: bolder;
+
+}
+
+#logoMenu{
+  width: 15%;
+  height: auto;
+}
+
+#logoFacebook{
+  width: 35%;
+  height: auto;
+}
+
+#hola{
+  font-size: 0.8em;
+  font-weight: bold;
+  color: brown;
+}
+
+#slider{
+  width: 100%;
+  height: auto;
+  overflow:hidden;
+}
+
+.fondoAdminli{
+  background-color: #bd7158;
+  padding: 0;
+}
+
+.fondoUsuarioli{
+  background-color: #fee9c7;
+  padding: 0;
+}
+
+#mostrarProductos{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  color: brown;
+}
+
+#mostrarRecetas{
+  padding: 0 0 0 0;
+  color: brown;
+}
+
+#mostrarProductos p{
+  color: black;
+}
+
+#mostrarRecetas p{
+  color: black;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 0 0 3% 6%;
+}
+
+.card:hover {
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+  background-color:#F5F5F5  ;
+}
+
+.card-img-top{
+  padding: 5% 0 0 0;
+}
+
+.botonReceta{
+  margin: 0 0 5% 0;
+}
+
+#conozcanosContainer{
+  padding: 5% 10% 0 10%;
+  text-align: justify;
+}
+
+#conozcanosContainer h4{
+  color: brown;
+  text-align: center;
+  padding: 0 0 5% 0;
+}
+
+#conozcanosContainer h3{
+  color: brown;
+  text-align: center;
+  padding: 0 0 5% 0;
+
+}
+
+#conozcanosGemes{
+  text-align: center;
+  padding: 5% 0 5% 0;
+}
+
+#conozcanosMisionVision{
+  text-align: center;
+  padding: 10% 0 10% 0;
+}
+
+#conozcanosLogo{
+  padding: 5% 0 0 0;
+}
+
+#conozcanosLogoMenu{
+  width: 25%;
+}
+
+/*MODAL---------------------------------------------------------------------------------------------------------------*/
+
+/* Modal Header */
+.modal-header {
+  padding: 2px 6px;
+  margin: 10px 0 10px 0;
+  background-color: #bd7158;
+  color: white;
+}
+.modal-body{
+  height:100%;
+  overflow:auto;
+  overflow-y: auto;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  height: 70%;
+  overflow:auto;
+}
+
+.modal-content h5{
+  color: brown;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  width: 1%;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/*FIN MODAL---------------------------------------------------------------------------------------------------------------*/
+
+

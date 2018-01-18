@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+     <title>Conózcanos | Las Gemes</title>
+     <link rel="shortcut icon" type="image/x-icon" href="imgs/LogoLasGemes.ico" />
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/conozcanos.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/alertify.css">    
+    <link rel="stylesheet" href="css/default.css">
+    <script src="js/alertify.js"></script>
+    
+</head>
+
+<body >
+
+
+<header><div class="container-fluid" id="header">
+<figure class="figure ">
+  <center><img id="logoMenu" src="imgs/LogoLasGemes.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure."></figure></center>
+</figure>     
+</div>
+</header>
+
+
+<nav class=" navbar-expand-sm navbar-light " id="barraMenuUsuario">
+  <div class="collapse navbar-collapse " id="navbarTextUsuario" >
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Inicio </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="conozcanos.html">Conózcanos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="productos.html">Productos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="recetas.html">Recetas</a>
+      </li>
+       <ul class="nav navbar-nav ">
+      <li class="dropdown nav-item"><a class="dropdown-toggle nav-link " data-toggle="dropdown" href="#">Contacto</a>
+        <ul class="dropdown-menu ">
+            <li class="nav-item active fondoUsuarioli">
+              <a class="nav-link" href="registroConsulta.html">Consulta</a>
+            </li>
+            <li class="nav-item active fondoUsuarioli">
+              <a class="nav-link" href="registroComentario.html">Comentario</a>
+            </li>
+        </ul>
+      </li>
+    </ul>
+    </ul>
+        <a id="hola"></a>
+        <a id="editar"></a>
+        <a id="login"></a>
+        <a class="nav-link" href="registroUsuario.html" id="registrarse"><i class="fa fa-user"></i> Registrarse</a>
+  </div>
+</nav>
+
+<nav class=" navbar-expand-sm navbar-light  escondida "  id="barraMenuAdmin">
+  <div class="collapse navbar-collapse" id="navbarTextAdmin" >
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+        <a class="nav-link" href="editarBanner.html">Banner</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="listaUsuarios.html">Usuarios </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="bitacora.html">Bitácora </a>
+      </li>
+
+
+      <ul class="nav navbar-nav ">
+      <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Productos</a>
+        <ul class="dropdown-menu">
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="listaProductos.html">Lista de productos </a>
+            </li>
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="registroProducto.html">Registrar productos </a>
+            </li>
+
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="listaCategoriasProductos.html">Lista de categorías de productos </a>
+            </li>
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="registroCategoriaProducto.html">Registrar categoría de productos </a>
+            </li>
+        </ul>
+      </li>
+    </ul>
+
+
+    <ul class="nav navbar-nav ">
+      <li class="dropdown nav-item"><a class="dropdown-toggle nav-link " data-toggle="dropdown" href="#">Recetas</a>
+        <ul class="dropdown-menu ">
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="listaRecetas.html">Lista de recetas </a>
+            </li>
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="registroReceta.html">Registrar recetas </a>
+            </li>
+
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="listaCategoriasRecetas.html">Lista de categorías de recetas </a>
+            </li>
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="registroCategoriaReceta.html">Registrar categorías de recetas </a>
+            </li>
+        </ul>
+      </li>
+    </ul>
+
+
+    <ul class="nav navbar-nav ">
+      <li class="dropdown nav-item"><a class="dropdown-toggle nav-link " data-toggle="dropdown" href="#">Contacto</a>
+        <ul class="dropdown-menu ">
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="listaConsultas.html">Lista de consultas </a>
+            </li>
+            <li class="nav-item active fondoAdminli">
+              <a class="nav-link" href="listaComentarios.html">Lista de comentarios </a>
+            </li>
+        </ul>
+      </li>
+    </ul>
+
+    </ul>
+  </div>
+</nav>
+
+
+
+
+<div id="conozcanosContainer">
+    <div class="container-fluid row" id="conozcanosGemes">
+      <div class="col-6">
+        <h3 id="">Mónica Álvarez Chavarría</h3>
+        <p>Bachiller en Manejo y Protección de Recursos Naturales, UNED.
+          Técnico en oficinista Informático, Colegio Universitario Boston.
+          Manipulación de Alimentos, INA.
+        </p>
+      </div>
+      <div class="col-6">
+        <h3 id="">Paula Álvarez Chavarría</h3>
+          <p>Licenciada en Manejo y Protección de Recursos Naturales, UNED.
+              Manipulación de Alimentos, INA.
+          </p>
+      </div>
+    </div>
+    <div class="container-fluid row" >
+      <div class="col-12">
+        <p>Las hermanas gemelas han hecho de un hobby una oportunidad de crear una empresa familiar casera en donde esta repostería está motivada por una tradición familiar, principalmente por las abuelitas y la mamá, en donde algunas recetas se han transferido de generación en generación y otras se han innovado gracias a las facilidades de información que tenemos en estos días.</p>
+
+        <p>Este proyecto fue hecho con el objetivo de que la población tanto femenina como masculina de todas las edades tengan la opción de degustar algo casero y económicamente accesible para que los consumidores de este tipo de productos como lo es la repostería, puedan sentirse seguros de adquirir un producto de calidad.
+        El producto elaborado por nuestra empresa posee ingredientes frescos los cuales harán que resalte y se mantenga un buen sabor tradicional.</p>
+      </div>
+    </div>
+     <div class="container-fluid row" id="conozcanosMisionVision">
+      <div class="col-6">
+        <h4 id="">Misión</h4>
+        <p>Somos una empresa que está a la vanguardia y al mismo tiempo fomenta el mantener las costumbres y tradiciones típicas costarricenses mediante la repostería casera.</p>
+      </div>
+      <div class="col-6">
+        <h4 id="">Visión</h4>
+          <p>Lograr que la empresa se convierta en la favorita en el gusto de los consumidores tanto nacionales como internacionales.</p>
+      </div>
+    </div>
+     <div class="container-fluid row" id="conozcanosHistoria">
+      <div class="col-12">
+        <h4 id="">Nuestra historia</h4>
+        <p>En octubre de 2016 nace la idea de la empresa familiar Las Gemes, la cual comenzó en un pequeño círculo familiar del Valle Central.</p>
+
+        <p>Las diferentes recetas tienen un sabor único y especial que nos hace recordar las diferentes tradiciones típicas costarricenses y a la vez nos permite remontarnos al pasado y saborear la repostería propia de esa época. </p>
+
+        <p>Éste producto se coloca a la venta en diferentes fechas especiales como lo son Día del Padre, Día de la Madre, Día del Padre, Día del Niño, San Valentín, Semana Santa, Navidad, fiestas familiares, y en diferentes actividades. </p>
+
+        <p>Con el fin de mantener la tradición, y para que las nuevas generaciones tengan la oportunidad de disfrutarla, se crea una pequeña empresa que se conocería con el nombre de Las Gemes, la cual produce estas delicias de forma artesanal, con una excelente presentación para los consumidores, a la vez que ofrece un producto de calidad que conserva el buen sabor y tradición que nos caracteriza.</p>
+
+        <p>Hoy por hoy estamos realizando un gran esfuerzo para colocar estos productos a futuro en diferentes góndolas de supermercados, abastecedores y pulperías, ya que queremos ser los líderes en el mercado en la categoría de repostería tradicional.</p>
+      </div>
+    </div>
+
+     <div class="container-fluid row" id="conozcanosLogo">
+      <div class="col-12">
+        
+           <center><img id="conozcanosLogoMenu" src="imgs/LogoLasGemes.png" class="figure-img img-fluid rounded" alt="Logo Las Gemes"></figure></center> 
+       
+      </div>
+    </div>
+
+
+</div>
+
+
+
+<footer>
+<div class="container-fluid row" id="footer">
+ <div class="col-4">
+      <h4 id="footerContacto">Contáctenos</h4>
+       <h6 id="footerTelefono"><i class="fa fa-phone"></i> 8348 4682 / 8997 6416 </h6>
+       <h6><i id="footerCorreo" class="fa  fa-envelope-o"></i> cocinalasgemes@gmail.com </h6>
+    </div>
+    <div class="col-4">
+     <!--  <figure class="figure "><center><img id="footerLogoLasGemes" src="imgs/LogoLasGemes.png" class="figure-img img-fluid rounded" alt="Loso de Las Gemes"></figure></center> -->
+       <h2>“Repostería casera con sabor de hogar”</h2>
+    </div>
+    <div class="col-4">
+      <h4 id="footerContacto">Síganos en</h4>
+      <figure class="figure "><center><a href="https://www.facebook.com/Las-Gemes-1752288915021622/"><img id="footerLogoFacebook" src="imgs/logoFacebook.png" class="figure-img img-fluid rounded" alt="Logo de Facebook"></figure></a></center>
+</div>
+<div class="container-fluid row" id="footer">
+  <div class="col-12">
+    <p id="footerCreditos">2017 Todos los derechos reservados. Diseño y desarrollo por Javier Álvarez</p>
+  </div>
+</div>
+</footer>
+
+   
+</body>
+
+</html>
